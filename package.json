@@ -1,0 +1,28 @@
+{
+  "name": "cobabro",
+  "version": "1.0.0",
+  "main": "Index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/Index.ts",
+    "dev": "nodemon --exec ts-node src/Index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@hapi/joi": "^17.0.2",
+    "@types/hapi__hapi": "^18.2.6",
+    "@types/node": "^13.1.6",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "2.6.2"
+  },
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.22"
+  }
+}
